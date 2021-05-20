@@ -3,16 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Laravel</title>
-
-        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <!-- <style>
             html, body {
-                background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -61,9 +56,14 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> -->
     </head>
     <body>
+        <!-- oggi create un nuovo progetto Laravel 7 e tramite gli appositi comandi 
+        artisan create un model con relativa migration e un resource controller.
+        Iniziate a definire le operazioni CRUD per gestire un archivio di fumetti.
+        Bonus:
+        creare il seeder per la tabella comics utilizzando il file in allegato. -->
             <p>Pagina di prova</p>
          <!-- Iniziare un progetto da zero
         [  ] Creare un progetto nuovo: composer create-project --prefer-dist laravel/laravel:^7.0 ...nomeDelProgetto...
