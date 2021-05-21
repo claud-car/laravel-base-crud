@@ -89,3 +89,31 @@ a{
     max-width: 22%;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 50px auto;
+    input{
+        font-size: 22px;
+        padding: 10px 0;
+    }
+}
+
+.card{
+        form{
+            margin: 0;
+            width: 100%;
+            display: flex;
+            input{
+                font-size: 14px;
+                background-color: #FFF;
+            }
+        }
+}
+
+.edit{
+    a{
+        align-items: unset;
+    }
+}
