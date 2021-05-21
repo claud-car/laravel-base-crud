@@ -10,5 +10,7 @@
     <h5>{{$comic->sale_date}}</h5>
     <h5>{{$comic->type}}</h5>
     <a href="{{route('comics.edit', ['comic' => $comic->id])}}">-Edit Comic</a>
+    <a href="{{route('comics.index')}}">-Indietro</a>
+
 </div>
 @endsection
