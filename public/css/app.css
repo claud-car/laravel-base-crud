@@ -119,3 +119,7 @@ form input {
   align-items: unset;
 }
 
+.alert {
+  text-align: center;
+}
+
